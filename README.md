@@ -7,4 +7,5 @@ To install:
 1. Download the repo, cd to it, and "npm install"
 2. Serve the directory with a local http server
 3. Open the index.html with your browser (e.g. localhost:8080/index.html)
-4. It'll receive OSC messages sent from 142.93.191.104:8100, then read values of the "/midi/note" address, and send the value to the first MIDI output port it finds (to check this open console in your browser and look for output ports). For now, you can modify the index of "WebMidi.outputs[(put your midi port index here)]" to your desired midi port in the socket-synth.js. Bind Midi Port by name feature will be added later.
+4. It'll receive OSC messages sent from 142.93.191.104:8100, then read values of the "/midi/note" address, and send the value to the first MIDI output port it finds (to check this open console in your browser and look for output ports). 
+For now, you can modify the index of "WebMidi.outputs[(put your midi port index here)]" to your desired midi port in the socket-synth.js. Bind Midi Port by name feature will be added later.
