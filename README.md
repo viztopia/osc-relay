@@ -1,6 +1,6 @@
 # osc-relay
 
-An web example about relaying UDP OSC messages sent to 142.93.191.104:12345 (which is my digital ocean droplet) to all web socket clients connected to 142.93.191.104:8100 (which is a web socket server on my digital ocean droplet).
+An web example about relaying UDP OSC messages sent to 142.93.191.104:12345 (which is a UDP port on my digital ocean droplet) to all web socket clients connected to 142.93.191.104:8100 (which is a web socket server on my digital ocean droplet).
 
 To install:
 
