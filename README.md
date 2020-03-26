@@ -1,1 +1,10 @@
 # osc-relay
+
+An web example about relaying UDP OSC messages sent to 142.93.191.104:12345 (which is my digital ocean droplet) to all web socket clients connected to 142.93.191.104:8100 (which is a web socket server on my digital ocean droplet).
+
+To install:
+
+1. Download the repo, cd to it, and "npm install"
+2. Serve the directory with a local http server
+3. Open the index.html with your browser (e.g. localhost:8080/index.html)
+4. It'll receive OSC messages sent from 142.93.191.104:8100, then read values of the "/midi/note" address, and send the value to the first MIDI output port it finds (to check this open console in your browser and look for output ports).
