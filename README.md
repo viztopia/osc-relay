@@ -9,3 +9,6 @@ To install:
 3. Open the index.html with your browser (e.g. localhost:8080/index.html)
 4. It'll receive OSC messages sent from 142.93.191.104:8100, then read values of the "/midi/note" address, and send the value to the first MIDI output port it finds (to check this open console in your browser and look for output ports). 
 5. For now, you can modify the index of "outputMidiControl = WebMidi.outputs[(put your midi port index here)]" to your desired midi port in the socket-synth.js, so that you can route the midi message out to wherever you want. Bind Midi Port by name feature will be added later.
+
+----03/26/20 update
+1. Added a max patcher file for sending OSC via UDP
